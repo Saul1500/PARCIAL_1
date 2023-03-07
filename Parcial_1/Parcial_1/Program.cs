@@ -1,6 +1,6 @@
 ﻿using Parcial_1.Entidades;
 using Parcial_1.Negocio;
-
+using System.Diagnostics;
 
 Usuario user = new Usuario();
 ClsUsuario clsUser = new ClsUsuario();
@@ -31,14 +31,8 @@ if (Resultado == true)
     des.Cantidad = int.Parse(Console.ReadLine());
     Console.WriteLine();
 
-    Venta producto = new Venta();
-
-
-    ClsVenta venta = new ClsVenta();
-    double costoTotal = venta.Total(producto);  // calcular el costo total
-
-    Console.WriteLine("El costo total es: " + venta);
-
+    Console.WriteLine(clsdes.Total(des));
+    clsdes.Descuento(des);
 }
 else
 {
