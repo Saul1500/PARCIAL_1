@@ -19,7 +19,7 @@ Console.WriteLine();
 bool Resultado = clsUser.Autenticacion(user);
 if (Resultado == true)
 {
-    Console.WriteLine("Bienvenido al programa de cálculo de precio de venta de productos.");
+    Console.WriteLine("Bienvenido al programa");
     Console.WriteLine();
 
     Console.WriteLine("Ingrese el precio unitario del producto:");
