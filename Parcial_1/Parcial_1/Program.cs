@@ -8,17 +8,24 @@ ClsUsuario clsUser = new ClsUsuario();
 Venta des = new Venta();
 ClsVenta clsdes  = new ClsVenta();
 
+
+
 Console.WriteLine("Ingresa tu usuario");
 user.usuario = Console.ReadLine();
 Console.WriteLine();
+Console.WriteLine("*************************************************");
+Console.WriteLine();
 Console.WriteLine("Ingresa tu password");
 user.contraseña = Console.ReadLine();
+Console.WriteLine();
+Console.WriteLine("*************************************************");
 
 Console.WriteLine();
 
 bool Resultado = clsUser.Autenticacion(user);
 if (Resultado == true)
 {
+    Console.WriteLine("*************************************************");
     Console.WriteLine("Bienvenido al programa");
     Console.WriteLine();
 
@@ -33,9 +40,11 @@ if (Resultado == true)
 
     Console.WriteLine(clsdes.Total(des));
     clsdes.Descuento(des);
+    Console.WriteLine("El precio del producto es : " + des.Precio_Del_producto);
+    Console.WriteLine("El precio del producto con descuento es de : " + des.Descuento);
 }
 else
 {
 
-    Console.WriteLine("Contrase Incorrecta");
+    Console.WriteLine("Sus credenciales son Incorrecta");
 }

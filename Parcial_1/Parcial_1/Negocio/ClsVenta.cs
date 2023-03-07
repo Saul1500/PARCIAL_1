@@ -22,7 +22,7 @@ namespace Parcial_1.Negocio
         {
             if (des.costo > 50)
                 {
-                    des.Precio_Del_producto = des.costo - 10;
+                    des.Descuento = des.costo - 10;
                     Console.WriteLine ("Se ha aplicado un descuento de $10.");
                 }
         }  
