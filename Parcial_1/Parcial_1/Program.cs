@@ -1,6 +1,7 @@
 ﻿using Parcial_1.Entidades;
 using Parcial_1.Negocio;
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 
 Usuario user = new Usuario();
 ClsUsuario clsUser = new ClsUsuario();
@@ -15,7 +16,7 @@ user.usuario = Console.ReadLine();
 Console.WriteLine();
 Console.WriteLine("*************************************************");
 Console.WriteLine();
-Console.WriteLine("Ingresa tu password");
+Console.WriteLine("Ingresa tu contraseña");
 user.contraseña = Console.ReadLine();
 Console.WriteLine();
 Console.WriteLine("*************************************************");
@@ -40,11 +41,25 @@ if (Resultado == true)
 
     Console.WriteLine(clsdes.Total(des));
     clsdes.Descuento(des);
-    Console.WriteLine("El precio del producto es : " + des.Precio_Del_producto);
-    Console.WriteLine("El precio del producto con descuento es de : " + des.Descuento);
+    if (des.Descuento >= 50)
+    {
+        Console.WriteLine("El precio del producto es : " + des.Precio_Del_producto);
+        Console.WriteLine("El precio del producto con descuento es de : " + des.Descuento);
+        Console.WriteLine("Total a pagar : " + des.Descuento);
+    }
+    else
+    {
+        Console.WriteLine("Total a pagar : " + des.costo);
+    }
+
+    Console.WriteLine();
+    Console.WriteLine("*************************************************");
 }
 else
 {
 
     Console.WriteLine("Sus credenciales son Incorrecta");
 }
+
+
+
