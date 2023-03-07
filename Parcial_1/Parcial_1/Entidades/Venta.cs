@@ -19,5 +19,9 @@ namespace Parcial_1.Entidades
        public double  Cantidad { get; set; }
 
        public double costo { get; set; }
+
+       public double ejemplo { get; set; }
+
+       public double ejemplo2 { get; set; }
     }
 }

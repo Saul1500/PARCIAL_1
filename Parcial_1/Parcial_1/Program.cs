@@ -31,8 +31,13 @@ if (Resultado == true)
     des.Cantidad = int.Parse(Console.ReadLine());
     Console.WriteLine();
 
-    //String resultado = ClsVenta.Total();
-    //Console.WriteLine(resultado);
+    Venta producto = new Venta();
+
+
+    ClsVenta venta = new ClsVenta();
+    double costoTotal = venta.Total(producto);  // calcular el costo total
+
+    Console.WriteLine("El costo total es: " + venta);
 
 }
 else
@@ -40,5 +45,3 @@ else
 
     Console.WriteLine("Contrase Incorrecta");
 }
-
-Console.ReadLine();
