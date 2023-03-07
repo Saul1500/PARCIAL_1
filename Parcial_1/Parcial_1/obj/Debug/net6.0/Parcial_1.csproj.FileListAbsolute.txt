@@ -1,0 +1,15 @@
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\bin\Debug\net6.0\Parcial_1.exe
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\bin\Debug\net6.0\Parcial_1.deps.json
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\bin\Debug\net6.0\Parcial_1.runtimeconfig.json
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\bin\Debug\net6.0\Parcial_1.dll
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\bin\Debug\net6.0\Parcial_1.pdb
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.csproj.AssemblyReference.cache
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.AssemblyInfoInputs.cache
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.AssemblyInfo.cs
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.csproj.CoreCompileInputs.cache
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.dll
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\refint\Parcial_1.dll
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.pdb
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\Parcial_1.genruntimeconfig.cache
+C:\Users\Saul\Desktop\Parcial_1\Parcial_1\obj\Debug\net6.0\ref\Parcial_1.dll
