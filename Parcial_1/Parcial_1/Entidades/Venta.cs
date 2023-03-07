@@ -16,7 +16,7 @@ namespace Parcial_1.Entidades
 
        public double Precio_Del_producto { get; set; }
 
-       public int  Cantidad { get; set; }
+       public double  Cantidad { get; set; }
 
        public double costo { get; set; }
     }

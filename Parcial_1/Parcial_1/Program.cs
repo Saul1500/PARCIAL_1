@@ -14,6 +14,8 @@ Console.WriteLine();
 Console.WriteLine("Ingresa tu password");
 user.contraseña = Console.ReadLine();
 
+Console.WriteLine();
+
 bool Resultado = clsUser.Autenticacion(user);
 if (Resultado == true)
 {
@@ -29,6 +31,9 @@ if (Resultado == true)
     des.Cantidad = int.Parse(Console.ReadLine());
     Console.WriteLine();
 
+    //String resultado = ClsVenta.Total();
+    //Console.WriteLine(resultado);
+
 }
 else
 {
@@ -36,5 +41,4 @@ else
     Console.WriteLine("Contrase Incorrecta");
 }
 
-
-//HOLA
+Console.ReadLine();

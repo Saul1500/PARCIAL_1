@@ -9,8 +9,8 @@ namespace Parcial_1.Negocio
 {
     public class ClsVenta
     {
-   
-            public double Total(Venta Producto)
+
+        public double Total(Venta Producto)
             {
                 
                 {
